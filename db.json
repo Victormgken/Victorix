@@ -1,0 +1,23 @@
+{
+    "categorias":[
+        {
+            "id": 1,
+            "nome": "Front End",
+            "descricao": "Categoria legal",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Back",
+            "descricao": "Categoria legal",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 3,
+            "nome": "Extras",
+            "descricao": "Categoria legal",
+            "cor": "#cbd1ff"
+        }
+        
+    ]
+}

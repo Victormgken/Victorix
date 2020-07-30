@@ -28,8 +28,10 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const Url = 'http://localhost:8080/categorias';
-    fetch(Url)
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http//localhost:8080/categorias'
+      : 'https://victorix.herokuapp.com/categorias';
+    fetch(URL)
       .then(async (serverResponse) => {
         const response = await serverResponse.json();
         setCategorias([
